@@ -1,4 +1,4 @@
-import Image1 from "../../assets/hero/women.png";
+import Image1 from "../../assets/hero/women.jpg";
 import Image2 from "../../assets/hero/shopping.jpg";
 import Image3 from "../../assets/hero/sale.png";
 import Slider from "react-slick";
