@@ -1,5 +1,4 @@
 import footerLogo from "../../assets/logo.jpg";
-import Banner from "../../assets/website/footer-pattern.jpg";
 
 import {
   FaFacebook,
@@ -9,14 +8,7 @@ import {
   FaMobileAlt,
 } from "react-icons/fa";
 
-const BannerImg = {
-  backgroundImage: `url(${Banner})`,
-  backgroundPosition: "bottom",
-  backgroundRepeat: "no-repeat",
-  backgroundSize: "cover",
-  height: "100%",
-  width: "100%",
-};
+
 
 const FooterLinks = [
   {
@@ -39,7 +31,7 @@ const FooterLinks = [
 
 const Footer = () => {
   return (
-    <div style={BannerImg} className="text-black ">
+    <div  className="text-black bg-pink-400/80 ">
       <div className="container">
         <div data-aos="zoom-in" className="grid md:grid-cols-3 pb-44 pt-5">
          
